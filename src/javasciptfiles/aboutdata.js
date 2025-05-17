@@ -1,7 +1,6 @@
 import art from "../assets/art.png";
 import plane from "../assets/plane.png";
 import Rocket from "../assets/Rocket.png";
-import phone from "../assets/phone.png";
 const aboutData = [
 	{
 		title: "My Mission",
