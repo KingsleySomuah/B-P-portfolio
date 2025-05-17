@@ -1,5 +1,5 @@
 import React from "react";
-import phone from "../assets/phone.png";
+import phone from "../assets/Phone.png";
 import why from "../javasciptfiles/why";
 
 const WhyUs = () => {
@@ -22,7 +22,9 @@ const WhyUs = () => {
 								</div>
 								<div className="space-y-3">
 									<h1 className="text-3xl font-bold tracking-wide">{item.title}</h1>
-									<p className="text-gray-400 text-base tracking-wide leading-relaxed">{item.description}</p>
+									<p className="text-gray-400 text-base tracking-wide leading-relaxed">
+										{item.description}
+									</p>
 								</div>
 							</div>
 						);
